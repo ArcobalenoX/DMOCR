@@ -3,13 +3,13 @@ import cfg
 
 def quad_loss(y_true, y_pred):
     # loss for inside_score
-    logits = y_pred[:, :, :, :1]
-    labels = y_true[:, :, :, :1]
+    logits = y_pred[:, :, :, :1]        #Y
+    labels = y_true[:, :, :, :1]        #Y*
     # balance positive and negative samples in an image
-    beta = 1 - tf.reduce_mean(labels)
-    # first apply sigmoid activation
-    predicts = tf.nn.sigmoid(logits)
-    # log +epsilon for stable cal
+    beta = 1 - tf.reduce_mean(labels)   #β
+    # first apply sigmoid activation    
+    predicts = tf.nn.sigmoid(logits)    #Y
+    # log +epsilon for stable calculate
     inside_score_loss = tf.reduce_mean(
         -1 * (beta * labels * tf.math.log(predicts + cfg.epsilon) +
               (1 - beta) * (1 - labels) * tf.math.log(1 - predicts + cfg.epsilon)))
@@ -39,6 +39,7 @@ def quad_loss(y_true, y_pred):
     side_vertex_coord_loss = tf.reduce_sum(pixel_wise_smooth_l1norm) / (
             tf.reduce_sum(vertex_weights) + cfg.epsilon)
     side_vertex_coord_loss *= cfg.lambda_side_vertex_coord_loss
+    
     return inside_score_loss + side_vertex_code_loss + side_vertex_coord_loss
 
 

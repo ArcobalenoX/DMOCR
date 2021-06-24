@@ -10,10 +10,15 @@ from tensorflow.keras.applications.imagenet_utils import preprocess_input
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-from network import Location
+import cfg
 from nms import nms
 from preprocess import resize_image
-import cfg
+#from network import Location
+
+from experiments.EAST.network import East
+from experiments.efficient.network import Location
+#from experiments.location.network import Location
+
 
 def crop_rectangle(img, geo):
     rect = cv2.minAreaRect(geo.astype(int))
@@ -67,44 +72,43 @@ def predict(east_detect, img_path, pixel_threshold, quiet=True):
                                     tuple(geo[1]),
                                     tuple(geo[2]),
                                     tuple(geo[3]),
-                                    tuple(geo[0])], width=2, fill='blue')
+                                    tuple(geo[0])], width=4, fill='blue')
                     rescaled_geo = geo / [scale_ratio_w, scale_ratio_h]
                     rescaled_geo_list = np.reshape(rescaled_geo, (8,)).tolist()
                     txt_item = ','.join(map(str, rescaled_geo_list))
-                    #print(rescaled_geo_list)
                     txt_items.append(txt_item + '\n')
                     if cfg.detection_box_crop:
                         img_crop = crop_rectangle(im_array, rescaled_geo)
-                        if not os.path.exists('output_crop'):
-                            os.mkdir('output_crop')
-                        cv2.imwrite(os.path.join('output_crop', img_path.split('/')[-1].split('.')[0] + '.jpg'), img_crop)
+                        if not os.path.exists(cfg.output_crop_path):
+                            os.makedirs(cfg.output_crop_path)
+                        cv2.imwrite(os.path.join(cfg.output_crop_path, os.path.splitext(os.path.basename(img_path))[0] + '_crop.jpg'), img_crop)
+
                 elif not quiet:
                     print('quad invalid with vertex num less then 4.')
             if flag:
-                if not os.path.exists('output'):
-                    os.mkdir('output')
-                quad_im.save(os.path.join('output', img_path.split('/')[-1].split('.')[0] + '_predict.jpg'))
+                if not os.path.exists(cfg.output_img_path):
+                    os.makedirs(cfg.output_img_path)
+                quad_im.save(os.path.join(cfg.output_img_path, os.path.splitext(os.path.basename(img_path))[0] + '_predict.jpg'))
+
             if cfg.predict_write2txt and len(txt_items) > 0:
-                if not os.path.exists('output_txt'):
-                    os.mkdir('output_txt')
-                with open(os.path.join("output_txt", img_path.split('/')[-1].split('.')[0] + '.txt'), 'w') as f_txt:
+                if not os.path.exists(cfg.output_txt_path):
+                    os.makedirs(cfg.output_txt_path)
+                with open(os.path.join(cfg.output_txt_path, os.path.splitext(os.path.basename(img_path))[0] + '.txt'), 'w') as f_txt:
                     f_txt.writelines(txt_items)
     except:
-        print(img_path+'  open error')
+        print(img_path +' open error')
 
 
 if __name__ == '__main__':
-   
-    location_model = Location().location_network()
+
+    location_model = East().east_network()
+    #location_model = Location().location_network()
+
     location_model.summary()
     location_model.load_weights(cfg.saved_model_weights_path)
-    #location_model.load_weights('saved_model/weights_E15_L0.10200.h5')
-
     test_all=True
     if test_all:
-        img_list = os.listdir(r"test_imgs/")
-        for img_path in img_list:
-            predict(location_model, os.path.join(r"test_imgs/", img_path),cfg.pixel_threshold)
-            #print(img_path)
+        for img_path in os.listdir(cfg.test_path):
+            predict(location_model, os.path.join(cfg.test_path, img_path), cfg.pixel_threshold)
     else:
         predict(location_model, 'test_imgs/002.jpg', cfg.pixel_threshold)

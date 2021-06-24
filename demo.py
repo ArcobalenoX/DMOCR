@@ -18,13 +18,12 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 location_model = Location().location_network()
 location_model.load_weights(cfg.location_weights)
 
-_, recognition_model = CRNN(cfg.width, cfg.height, cfg.label_len, cfg.characters).network()
+_, recognition_model = CRNN(cfg.height, cfg.width,  cfg.label_len, cfg.characters).network()
 recognition_model.load_weights(cfg.recognition_weights)
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Demo of LR")
-    parser.add_argument('-p', '--path', default='demo/000_mask1.jpg')
+    parser.add_argument('-p', '--path', default='demo/300.jpg')
     args = parser.parse_args()
     img_path=args.path
     ims_re = location(location_model, img_path, cfg.pixel_threshold)
@@ -33,6 +32,6 @@ if __name__ == '__main__':
         result ="\n{} recognize result: {}\n".format(img_path,re_text)
         print(result)
 
-
+ 
 
 
