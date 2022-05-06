@@ -1,0 +1,6 @@
+*.h5
+*/logs/*
+*.pyc
+*.jpg
+*experiments*
+*.xml

@@ -2,12 +2,383 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f5bd55d-b5d4-425e-b3c4-1ccb462c3f7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SSD300/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSD300/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSD300/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSD300/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../catdog/catdog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E2E.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/debug.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/location/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/debug.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/location/debug.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593060923.ARCOABLENO.17056.4696.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593060943.ARCOABLENO.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593071011.ARCOABLENO.17040.4916.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593073673.ARCOABLENO.8456.4188.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593091101.ARCOABLENO.14668.4254.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593095251.ARCOABLENO.18260.4214.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593153901.ARCOABLENO.13980.3769.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593154000.ARCOABLENO.14104.3769.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593165031.ARCOABLENO.1340.3953.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593187123.ARCOABLENO.14884.3938.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593225837.ARCOABLENO.9844.3910.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593421034.ARCOABLENO.7480.2923.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593421082.ARCOABLENO.17164.2923.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1593422124.ARCOABLENO.13572.3205.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/events.out.tfevents.1595342774.ARCOABLENO.21708.4160.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_04_55_43/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_04_55_43/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_04_55_43/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_04_55_43/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_04_55_43/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_07_43_50/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_07_43_50/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_07_43_50/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_07_43_50/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_07_43_50/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_08_28_10/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_08_28_10/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_08_28_10/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_08_28_10/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_08_28_10/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_13_18_38/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_13_18_38/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_13_18_38/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_13_18_38/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_13_18_38/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_14_27_47/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_14_27_47/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_14_27_47/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_14_27_47/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_25_14_27_47/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_06_46_49/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_06_46_49/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_06_46_49/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_06_46_49/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_06_46_49/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_09_50_39/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_09_50_39/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_09_50_39/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_09_50_39/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_09_50_39/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_15_58_52/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_15_58_52/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_15_58_52/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_15_58_52/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_26_15_58_52/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_27_02_44_05/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_27_02_44_05/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_27_02_44_05/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_27_02_44_05/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_27_02_44_05/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_08_58_10/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_08_58_10/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_08_58_10/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_08_58_10/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_08_58_10/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_09_15_32/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_09_15_32/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_09_15_32/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_09_15_32/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_06_29_09_15_32/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_07_21_14_46_24/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_07_21_14_46_24/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_07_21_14_46_24/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_07_21_14_46_24/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/train/plugins/profile/2020_07_21_14_46_24/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593061472.ARCOABLENO.17056.27469.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593071553.ARCOABLENO.17040.27689.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593074123.ARCOABLENO.8456.25297.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593091501.ARCOABLENO.14668.24557.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593095635.ARCOABLENO.18260.24381.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593154356.ARCOABLENO.14104.16827.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593165378.ARCOABLENO.1340.17011.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593187473.ARCOABLENO.14884.16903.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593226181.ARCOABLENO.9844.16805.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593421170.ARCOABLENO.17164.14409.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1593422208.ARCOABLENO.13572.15075.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/logs/validation/events.out.tfevents.1595342914.ARCOABLENO.21708.17552.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/location/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/location/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/location/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/location/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/saved_model/location_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/location/saved_model/location_weights.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/location/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592748733.ARCOABLENO.11940.3037.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592748787.ARCOABLENO.15512.3037.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592748944.ARCOABLENO.7652.3037.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749185.ARCOABLENO.5544.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749245.ARCOABLENO.1056.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749327.ARCOABLENO.14316.3039.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749496.ARCOABLENO.16260.3039.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749559.ARCOABLENO.11356.3039.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749629.ARCOABLENO.16716.3041.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749708.ARCOABLENO.912.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749831.ARCOABLENO.19424.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749880.ARCOABLENO.19024.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592749934.ARCOABLENO.12756.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592750280.ARCOABLENO.17712.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592750374.ARCOABLENO.18424.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592750493.ARCOABLENO.18216.3031.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592750769.ARCOABLENO.19644.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592750884.ARCOABLENO.16788.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592750945.ARCOABLENO.17712.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751492.ARCOABLENO.1984.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751504.ARCOABLENO.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751540.ARCOABLENO.11728.3037.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751579.ARCOABLENO.19856.3037.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751612.ARCOABLENO.20180.3037.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751642.ARCOABLENO.18868.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751672.ARCOABLENO.16696.3035.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592751941.ARCOABLENO.11780.3030.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592752253.ARCOABLENO.14292.3030.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753210.ARCOABLENO.20332.3043.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753269.ARCOABLENO.19004.3030.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753336.ARCOABLENO.17316.3030.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753379.ARCOABLENO.20292.3030.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753409.ARCOABLENO.20304.3030.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753449.ARCOABLENO.20140.3043.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753501.ARCOABLENO.19820.3043.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592753580.ARCOABLENO.20300.2785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592795673.ARCOABLENO.15524.2785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592796053.ARCOABLENO.11152.2785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592796950.ARCOABLENO.18596.2669.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592797284.ARCOABLENO.20108.2669.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592798947.ARCOABLENO.1124.2694.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592801662.ARCOABLENO.16944.2784.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592803929.ARCOABLENO.21264.2880.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592804763.ARCOABLENO.12120.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592804815.ARCOABLENO.19592.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592810947.ARCOABLENO.6696.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811124.ARCOABLENO.11668.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811169.ARCOABLENO.20644.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811417.ARCOABLENO.20796.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811481.ARCOABLENO.1300.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811532.ARCOABLENO.19924.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811728.ARCOABLENO.20356.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811776.ARCOABLENO.20452.2799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811854.ARCOABLENO.20596.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592811926.ARCOABLENO.20784.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592817422.ARCOABLENO.15892.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592817472.ARCOABLENO.6876.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592817622.ARCOABLENO.19644.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592817683.ARCOABLENO.8232.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592818822.ARCOABLENO.10804.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592823739.ARCOABLENO.17744.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592824108.ARCOABLENO.20012.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592824167.ARCOABLENO.19836.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592825320.ARCOABLENO.19096.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592825435.ARCOABLENO.22492.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592825748.ARCOABLENO.20536.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592826871.ARCOABLENO.3804.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1592827563.ARCOABLENO.21328.2797.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595334267.ARCOABLENO.18696.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595334498.ARCOABLENO.18216.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595336748.ARCOABLENO.8560.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595337193.ARCOABLENO.13712.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595337234.ARCOABLENO.13464.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595337276.ARCOABLENO.22252.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595337360.ARCOABLENO.21024.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595345991.ARCOABLENO.23344.4275.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595346104.ARCOABLENO.21108.4395.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/events.out.tfevents.1595378804.ARCOABLENO.11312.4395.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_14_58_24/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_14_58_24/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_14_58_24/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_14_58_24/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_14_58_24/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_01_25/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_01_25/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_01_25/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_01_25/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_01_25/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_05_53/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_05_53/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_05_53/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_05_53/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_05_53/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_11_06/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_11_06/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_11_06/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_11_06/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_11_06/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_28_04/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_28_04/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_28_04/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_28_04/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_28_04/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_30_23/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_30_23/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_30_23/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_30_23/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_30_23/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_31_55/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_31_55/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_31_55/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_31_55/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_31_55/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_33_15/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_33_15/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_33_15/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_33_15/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_21_15_33_15/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_14_44/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_14_44/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_14_44/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_14_44/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_14_44/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_21_05/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_21_05/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_21_05/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_21_05/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_21_05/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_36_01/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_36_01/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_36_01/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_36_01/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_36_01/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_41_35/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_41_35/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_41_35/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_41_35/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_03_41_35/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_09_18/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_09_18/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_09_18/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_09_18/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_09_18/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_54_32/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_54_32/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_54_32/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_54_32/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_04_54_32/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_32_21/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_32_21/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_32_21/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_32_21/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_32_21/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_47_05/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_47_05/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_47_05/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_47_05/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_05_47_05/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_29_17/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_29_17/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_29_17/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_29_17/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_29_17/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_33_00/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_33_00/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_33_00/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_33_00/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_33_00/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_45_36/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_45_36/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_45_36/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_45_36/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_07_45_36/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_21_37/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_21_37/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_21_37/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_21_37/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_21_37/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_40_37/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_40_37/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_40_37/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_40_37/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_09_40_37/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_09_41/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_09_41/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_09_41/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_09_41/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_09_41/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_28_52/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_28_52/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_28_52/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_28_52/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_28_52/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_30_54/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_30_54/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_30_54/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_30_54/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_30_54/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_35_58/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_35_58/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_35_58/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_35_58/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_35_58/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_54_42/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_54_42/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_54_42/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_54_42/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_11_54_42/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_12_06_14/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_12_06_14/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_12_06_14/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_12_06_14/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_06_22_12_06_14/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_24_48/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_24_48/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_24_48/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_24_48/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_24_48/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_28_36/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_28_36/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_28_36/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_28_36/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_12_28_36/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_06_07/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_06_07/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_06_07/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_06_07/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_06_07/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_13_32/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_13_32/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_13_32/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_13_32/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_13_32/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_09/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_09/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_09/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_09/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_09/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_51/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_51/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_51/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_51/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_14_51/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_16_17/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_16_17/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_16_17/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_16_17/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_13_16_17/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_40_08/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_40_08/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_40_08/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_40_08/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_40_08/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_42_01/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_42_01/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_42_01/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_42_01/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_21_15_42_01/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_22_00_47_01/ARCOABLENO.input_pipeline.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_22_00_47_01/ARCOABLENO.kernel_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_22_00_47_01/ARCOABLENO.overview_page.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_22_00_47_01/ARCOABLENO.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/logs/train/plugins/profile/2020_07_22_00_47_01/ARCOABLENO.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/saved_model/CRNN_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/saved_model/CRNN_weights.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recognition/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/recognition/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/visual.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +386,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1cObdZYgrU7UPDs9oZ9iuvWbN1A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,7 +405,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -39,11 +420,5 @@
       <updated>1590402675033</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590725396510">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590725396510" />
   </component>
 </project>
