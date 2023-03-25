@@ -4,3 +4,5 @@
 *.jpg
 *experiments*
 *.xml
+.idea/
+.vscode/
